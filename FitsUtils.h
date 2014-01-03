@@ -1,3 +1,6 @@
+#ifndef FITSUTILS_H
+#define FITSUTILS_H
+
 #include <CCfits/CCfits>
 #include <cmath>
 #include <vector>
@@ -69,3 +72,6 @@ vector <xypoint> ReadFits(char* fname)
      return orders;
 }
 
+
+
+#endif

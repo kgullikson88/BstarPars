@@ -1,5 +1,6 @@
 
 #include "FitsUtils.h"
+#include "ModelUtils.h"
 
 
 
@@ -8,7 +9,7 @@ int main()
 {
 
 
-     CCfits::FITS::setVerboseMode(true);
+     //CCfits::FITS::setVerboseMode(true);
 
      try
      {
